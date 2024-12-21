@@ -113,7 +113,9 @@ Les instructions d'appel de fonction sont les suivantes :
 > Pour ces instructions, on utilise la syntaxe suivante :
 > 
 > $$
->     \text{CALL }LABEL \Longleftrightarrow \text{PC} = R_0 \\
+>     \text{CALL }LABEL \Longleftrightarrow \text{PC} = R_0
+> $$
+> $$
 >     RET
 > $$
 
@@ -305,7 +307,7 @@ Spécifie à la RAM le comportement qu’elle doit avoir (si elle doit être lue
 # Compilateur
 
 Le compilateur a été écrit en Perl. En effet, c'est un langage recommandé pour le traitements des chaînes de caractères et des fichiers textes.
- < FichierInput > FichierOutput
+
 ## Utilisation du compilateur
 
 Le compilateur accepte deux syntaxes :
